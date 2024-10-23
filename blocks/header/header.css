@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  padding: 20px;
 }
 
 header nav {
@@ -158,15 +159,21 @@ header nav .nav-sections {
 }
 
 header nav[aria-expanded='true'] .nav-sections {
-  display: block;
+  display: flex;
   visibility: visible;
-  align-self: start;
+  justify-content: end;
+  align-self: end;
+
 }
 
 header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
-  font-size: var(--body-font-size-s);
+  color: var(--textColor, #202020);
+  font-size: var(--fontSizeSmall, 14px);
+  padding: 15px 17px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 header nav .nav-sections ul > li {
