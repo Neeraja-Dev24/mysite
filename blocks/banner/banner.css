@@ -1,0 +1,9 @@
+.section.banner-container {
+    background-color: lightblue
+}
+.columns-bannertitle-col{
+    padding-bottom: 12px;
+}
+h1#franklin-banner {
+    padding: 10px;
+}
