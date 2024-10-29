@@ -271,3 +271,9 @@ main .section.bg-color {
   padding: 50px 0;
 }
 
+main .section.table-btn > .default-content-wrapper{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap :10px;
+}
