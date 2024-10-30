@@ -255,3 +255,25 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+/* Day2- assignment:2 */
+main .section.banner {
+  background-color: rgb(186, 236, 252);
+  margin: 0;
+  padding: 50px 0;
+}
+
+
+/* Day2- assignment:3 */
+main .section.bg-color {
+  background-color: rgb(230, 216, 216);
+  margin: 0;
+  padding: 50px 0;
+}
+
+main .section.table-btn > .default-content-wrapper{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap :10px;
+}
