@@ -24,3 +24,15 @@ indices:
         select: head > meta[property="og:image"]
         value: | 
                 attribute(el,'content')
+      theme:
+        select: head > meta[property="og:theme"]
+        value: | 
+                attribute(el,'content')
+      template:
+        select: head > meta[name="template"]
+        value: | 
+                attribute(el,'content')
+      tag:
+        select: head > meta[property="article:tag"]
+        value: | 
+                attribute(el,'content')
