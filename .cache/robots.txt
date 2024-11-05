@@ -1,0 +1,4 @@
+user-agent: *
+allow: /
+
+Sitemap: https://news.adobe.com/assets/sitemap.xml
