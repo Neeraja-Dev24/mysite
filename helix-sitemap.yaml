@@ -1,5 +1,11 @@
 sitemaps:
-   example:
-     source: /query-index.json
-     destination: /sitemap-en.xml
-     lastmod: YYYY-MM-DD
+  example:
+    origin: https://main--mysite--neeraja-dev24.aem.page
+    default: en
+    lastmod: YYYY-MM-DD
+    languages:
+      en:
+        source: /query-index.json
+        destination: /sitemap-en.xml
+        alternate: /{path}
+       
